@@ -1,4 +1,4 @@
-// File: C:\Users\ibtis\OneDrive\Desktop\Bank-Account-management-system-main\app\page.js
+// File: C:\Users\lenovo\Desktop\bank system\Bank-Account-management-system\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
