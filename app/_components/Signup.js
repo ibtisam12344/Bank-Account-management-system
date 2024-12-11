@@ -53,7 +53,7 @@ function Signup({ toggleForm, type = "initial" }) {
             onClick={toggleForm}
             className="text-indigo-500 hover:underline"
           >
-            Sign Up
+              login
           </button>
         ) : (
           <Link href="/login" className="text-indigo-500 hover:underline">
