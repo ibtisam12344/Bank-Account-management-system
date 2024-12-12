@@ -1,4 +1,4 @@
-// File: C:\Users\lenovo\Desktop\Bank-Account-management-system\app\dashboard\layout.js
+// File: C:\Users\ibtis\OneDrive\Desktop\Bank-Account-management-system\app\dashboard\layout.js
 import * as entry from '../../../../app/dashboard/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
