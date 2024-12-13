@@ -7,7 +7,9 @@ const AccountDetailsContext = createContext();
 
 // Initial account details
 const AccountDetails = {
-  name: "Debby",
+  name: "Ibtisam Abid",
+  email: "ibtisamtech88@gmail.com",
+  password: "ibtisam",
   totalIncome: 10454,
   totalExpenses: 48780,
   currentBalance: 69541,

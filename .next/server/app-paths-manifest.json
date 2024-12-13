@@ -1,9 +1,7 @@
 {
   "/page": "app/page.js",
-  "/dashboard/deposit/page": "app/dashboard/deposit/page.js",
-  "/dashboard/withdraw/page": "app/dashboard/withdraw/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/dashboard/transfer/page": "app/dashboard/transfer/page.js",
-  "/dashboard/transactions/page": "app/dashboard/transactions/page.js",
-  "/dashboard/settings/page": "app/dashboard/settings/page.js"
+  "/dashboard/withdraw/page": "app/dashboard/withdraw/page.js",
+  "/dashboard/settings/page": "app/dashboard/settings/page.js",
+  "/dashboard/deposit/page": "app/dashboard/deposit/page.js"
 }
