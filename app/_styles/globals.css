@@ -29,7 +29,7 @@
     width: 20px;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 2px solid blue;
+    border: 2px solid white;
     border-right-color: transparent;
     animation: rotate 1s infinite linear;
   }

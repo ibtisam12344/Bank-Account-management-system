@@ -1,5 +1,70 @@
 {
-  "node": {},
+  "node": {
+    "40698c64a8f982e3b9c3755a0fb9f7af359b688390": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cibtis%5C%5COneDrive%5C%5CDesktop%5C%5CBank-Account-management-system%5C%5Capp%5C%5C_lib%5C%5Caction.js%22%2C%5B%5B%2240698c64a8f982e3b9c3755a0fb9f7af359b688390%22%2C%22handleSignUp%22%5D%2C%5B%22409a6dd149d0c389243315bebdf5b430c3cf3930c5%22%2C%22handleLogin%22%5D%2C%5B%2240f28b9da75a0d4295b8dfe28858b2a248a6c324c9%22%2C%22handleUpdate%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/settings/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cibtis%5C%5COneDrive%5C%5CDesktop%5C%5CBank-Account-management-system%5C%5Capp%5C%5C_lib%5C%5Caction.js%22%2C%5B%5B%2240698c64a8f982e3b9c3755a0fb9f7af359b688390%22%2C%22handleSignUp%22%5D%2C%5B%22409a6dd149d0c389243315bebdf5b430c3cf3930c5%22%2C%22handleLogin%22%5D%2C%5B%2240f28b9da75a0d4295b8dfe28858b2a248a6c324c9%22%2C%22handleUpdate%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/dashboard/settings/page": "action-browser"
+      }
+    },
+    "409a6dd149d0c389243315bebdf5b430c3cf3930c5": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cibtis%5C%5COneDrive%5C%5CDesktop%5C%5CBank-Account-management-system%5C%5Capp%5C%5C_lib%5C%5Caction.js%22%2C%5B%5B%2240698c64a8f982e3b9c3755a0fb9f7af359b688390%22%2C%22handleSignUp%22%5D%2C%5B%22409a6dd149d0c389243315bebdf5b430c3cf3930c5%22%2C%22handleLogin%22%5D%2C%5B%2240f28b9da75a0d4295b8dfe28858b2a248a6c324c9%22%2C%22handleUpdate%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/settings/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cibtis%5C%5COneDrive%5C%5CDesktop%5C%5CBank-Account-management-system%5C%5Capp%5C%5C_lib%5C%5Caction.js%22%2C%5B%5B%2240698c64a8f982e3b9c3755a0fb9f7af359b688390%22%2C%22handleSignUp%22%5D%2C%5B%22409a6dd149d0c389243315bebdf5b430c3cf3930c5%22%2C%22handleLogin%22%5D%2C%5B%2240f28b9da75a0d4295b8dfe28858b2a248a6c324c9%22%2C%22handleUpdate%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/dashboard/settings/page": "action-browser"
+      }
+    },
+    "60f28b9da75a0d4295b8dfe28858b2a248a6c324c9": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cibtis%5C%5COneDrive%5C%5CDesktop%5C%5CBank-Account-management-system%5C%5Capp%5C%5C_lib%5C%5Caction.js%22%2C%5B%5B%2240698c64a8f982e3b9c3755a0fb9f7af359b688390%22%2C%22handleSignUp%22%5D%2C%5B%22409a6dd149d0c389243315bebdf5b430c3cf3930c5%22%2C%22handleLogin%22%5D%2C%5B%2240f28b9da75a0d4295b8dfe28858b2a248a6c324c9%22%2C%22handleUpdate%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/settings/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cibtis%5C%5COneDrive%5C%5CDesktop%5C%5CBank-Account-management-system%5C%5Capp%5C%5C_lib%5C%5Caction.js%22%2C%5B%5B%2240698c64a8f982e3b9c3755a0fb9f7af359b688390%22%2C%22handleSignUp%22%5D%2C%5B%22409a6dd149d0c389243315bebdf5b430c3cf3930c5%22%2C%22handleLogin%22%5D%2C%5B%2240f28b9da75a0d4295b8dfe28858b2a248a6c324c9%22%2C%22handleUpdate%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/dashboard/settings/page": "action-browser"
+      }
+    },
+    "40f28b9da75a0d4295b8dfe28858b2a248a6c324c9": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cibtis%5C%5COneDrive%5C%5CDesktop%5C%5CBank-Account-management-system%5C%5Capp%5C%5C_lib%5C%5Caction.js%22%2C%5B%5B%2240698c64a8f982e3b9c3755a0fb9f7af359b688390%22%2C%22handleSignUp%22%5D%2C%5B%22409a6dd149d0c389243315bebdf5b430c3cf3930c5%22%2C%22handleLogin%22%5D%2C%5B%2240f28b9da75a0d4295b8dfe28858b2a248a6c324c9%22%2C%22handleUpdate%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/settings/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cibtis%5C%5COneDrive%5C%5CDesktop%5C%5CBank-Account-management-system%5C%5Capp%5C%5C_lib%5C%5Caction.js%22%2C%5B%5B%2240698c64a8f982e3b9c3755a0fb9f7af359b688390%22%2C%22handleSignUp%22%5D%2C%5B%22409a6dd149d0c389243315bebdf5b430c3cf3930c5%22%2C%22handleLogin%22%5D%2C%5B%2240f28b9da75a0d4295b8dfe28858b2a248a6c324c9%22%2C%22handleUpdate%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/dashboard/settings/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
   "encryptionKey": "ZaRtovlSCR/k0NSTfxhcUKlTuXN1EEewsoU2/JbT7/I="
 }

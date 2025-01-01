@@ -1,35 +1,29 @@
 "use client";
 
-import Link from "next/link";
-import { useAccountDetails } from "./AccountDetailsContext";
 import { useState } from "react";
 import { HiEye, HiEyeOff } from "react-icons/hi";
+import { TbLayoutDashboard } from "react-icons/tb";
+import { useAccountDetails } from "./AccountDetailsContext";
+import Menus from "./Menus";
+import Link from "next/link";
 
 function Menu() {
   const [showDetails, setShowDetails] = useState(false);
+  const { accountDetails } = useAccountDetails() || {}; // Safe access with optional chaining
 
-  const options = [
-    { id: 1, label: "Withdraw Money", url: "/dashboard/withdraw" },
-    { id: 2, label: "Deposit", url: "/dashboard/deposit" },
-    { id: 3, label: "View Transactions", url: "/dashboard/transactions" },
-    { id: 4, label: "Transfer Money", url: "/dashboard/transfer" },
-    { id: 5, label: "Settings", url: "/dashboard/settings" },
-  ];
-
-  const accountDetails = useAccountDetails();
+  // Provide fallback values if accountDetails is missing
+  const name = accountDetails?.name || "User";
+  const balance = accountDetails?.balance || 0;
+  const accountNumber = accountDetails?.accountNumber || "N/A";
 
   return (
     <aside className="w-full md:max-w-xs lg:max-w-sm bg-gradient-to-b from-blue-500 to-blue-700 text-white flex-shrink-0 p-6 shadow-lg">
-      <h2 className="text-2xl font-bold mb-4">
-        Welcome, {accountDetails.name}
-      </h2>
+      <h2 className="text-2xl font-bold mb-4">Welcome, {name}</h2>
+
       <p className="text-sm leading-relaxed flex items-center">
         Account Balance :
         <span className="font-semibold ml-2">
-          $
-          {showDetails
-            ? accountDetails.currentBalance
-            : "*".repeat(accountDetails.currentBalance.toString().length)}
+          ${showDetails ? balance : "*".repeat(balance.toString().length)}
         </span>
         <button
           className="ml-auto p-1 text-white rounded"
@@ -47,22 +41,16 @@ function Menu() {
         Account Number :
         <span className="font-semibold ml-1">
           {showDetails
-            ? accountDetails.accountNumber
-            : "*".repeat(accountDetails.accountNumber.toString().length)}
+            ? accountNumber
+            : "*".repeat(accountNumber.toString().length)}
         </span>
       </p>
 
-      <div className="mt-6 bg-gradient-to-b from-blue-100 to-blue-300 p-4 rounded-lg shadow-lg">
-        <ul className="space-y-4">
-          {options.map((option) => (
-            <Link href={option.url} key={option.id} className="block">
-              <li className="p-4 bg-blue-500 hover:bg-blue-600 rounded-lg shadow-md cursor-pointer text-center font-medium text-white transition-transform transform hover:scale-105">
-                {option.label}
-              </li>
-            </Link>
-          ))}
-        </ul>
-      </div>
+      <Link className="flex justify-end" href="/dashboard">
+        <TbLayoutDashboard className="w-7 h-7" />
+      </Link>
+
+      <Menus accountDetails={accountDetails} />
     </aside>
   );
 }

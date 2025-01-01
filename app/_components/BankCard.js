@@ -1,8 +1,33 @@
-export default function BankCard({ accountDetails }) {
+"use client";
+
+import { useEffect, useState } from "react";
+import Spinner from "./Spinner";
+import { useAccountDetails } from "./AccountDetailsContext";
+
+export default function BankCard() {
+  const { accountDetails } = useAccountDetails();
   const {
     name,
-    myCard: { cardNumber, expiry },
+    Card: { cardNumber, expiry },
   } = accountDetails;
+
+  // State to store dynamic data (if required)
+  const [isClient, setIsClient] = useState(false);
+
+  // Ensuring that the component is only rendered on the client-side
+  useEffect(() => {
+    setIsClient(true); // Setting state once component is mounted
+  }, []);
+
+  // Render only if on the client to prevent hydration issues
+  if (!isClient) {
+    return (
+      <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-11 rounded-xl shadow-lg w-60 md:w-96 h-52 md:h-64">
+        <Spinner></Spinner>
+      </div>
+    );
+  }
+
   return (
     <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-6 rounded-xl shadow-lg w-60 md:w-96 h-52 md:h-64 flex flex-col justify-between text-white">
       {/* Card Header */}
